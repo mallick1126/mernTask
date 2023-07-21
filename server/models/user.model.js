@@ -10,13 +10,9 @@ const UserSchema = mongoose.Schema(
     email: {
       type: String,
       required: true,
-      validate: {
-        validator: (value) => validator.isEmail(value),
-        message: "Invalid email format",
-      },
     },
     age: {
-      type: String,
+      type: Number,
       required: true,
     },
     phoneNumber: {

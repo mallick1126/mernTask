@@ -1,0 +1,167 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* .form-container {
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 100px;
+}
+.form-container input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.btn {
+  margin-top: 25px;
+} */
+
+/* ---------------------- Create User CSS ---------------------- */
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-row label {
+  font-weight: bold;
+  margin-right: 10px;
+  flex-basis: 100px; /* Set the width of the label column */
+}
+
+.form-row input {
+  flex: 1; /* Fill the remaining space */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+/* ------------- alert css ----------------- */
+
+.alert {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.success-alert {
+  background-color: #dff0d8;
+  color: #3c763d;
+  border: 1px solid #3c763d;
+}
+
+.error-alert {
+  background-color: #f2dede;
+  color: #a94442;
+  border: 1px solid #a94442;
+}
+
+/* ---------------- fetch user css -------------------- */
+
+/* .center-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+a {
+  cursor: pointer;
+} */
+
+/* FetchUsers.css */
+.center-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-container {
+  width: 100%;
+  margin: 20px;
+  overflow: auto; /* Enable vertical scrolling for the table */
+  max-height: 70vh; /* Set a fixed height for the table container */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+  position: sticky;
+  top: 0; /* Stick the table header to the top */
+  z-index: 1; /* Ensure the table header is above the body while scrolling */
+}
+
+a {
+  cursor: pointer;
+}
