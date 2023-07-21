@@ -43,7 +43,7 @@ The main purpose of this project is to provide a practical example of building a
 
      ```
      PORT=5555
-     MONGODB_URI=mongodb://localhost/mern_task_db
+     MONGO_URI=your_mongo_uri
      SECRET_KEY=your_secret_key
      ```
 
