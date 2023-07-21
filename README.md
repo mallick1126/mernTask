@@ -1,9 +1,10 @@
 
-Project Title: MERN CRUD Application with User Management
-Overview
+## Project Title: MERN CRUD Application with User Management
+
+## Overview
 This project is a full-stack MERN (MongoDB, Express.js, React, Node.js) application that demonstrates how to perform CRUD (Create, Read, Update, Delete) operations on a "users" collection in a MongoDB database. The application consists of both the backend API and the frontend user interface, allowing users to interact with the system seamlessly.
 
-The main purpose of this project is to provide a practical example of building a complete web application from scratch, showcasing best practices in modern web development and demonstrating essential features such as data management, input validation, error handling, and user authentication (optional).
+The main purpose of this project is to provide a practical example of building a complete web application from scratch, showcasing best practices in modern web development, and demonstrating essential features such as data management, input validation, error handling, and user authentication (optional).
 
 ## Features
 
